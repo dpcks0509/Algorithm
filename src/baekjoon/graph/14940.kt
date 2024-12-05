@@ -1,4 +1,4 @@
-package baekjoon
+package baekjoon.graph
 
 class `14940` {
     data class Node(
