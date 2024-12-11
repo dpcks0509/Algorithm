@@ -1,4 +1,4 @@
-package baekjoon
+package baekjoon.graph
 
 fun main() {
     val br = System.`in`.bufferedReader()
@@ -7,10 +7,10 @@ fun main() {
     val n = br.readLine().toInt()
     val board = Array(n) { br.readLine().toCharArray() }
 
-    data class Node(
-        val x: Int,
-        val y: Int,
-    )
+//    data class Node(
+//        val x: Int,
+//        val y: Int,
+//    )
 
     val dx = listOf(1, -1, 0, 0)
     val dy = listOf(0, 0, -1, 1)
