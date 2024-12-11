@@ -1,4 +1,4 @@
-package baekjoon
+package baekjoon.graph
 
 fun main() {
     data class Node(
