@@ -1,4 +1,4 @@
-package baekjoon.implementaion
+package baekjoon.implementation
 
 class `11723` {
     fun solution(): String =

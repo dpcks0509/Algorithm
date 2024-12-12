@@ -1,4 +1,4 @@
-package baekjoon.implementaion
+package baekjoon.implementation
 
 data class Bingo(
     val number: Int,
