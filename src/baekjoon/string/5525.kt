@@ -1,4 +1,4 @@
-package baekjoon
+package baekjoon.string
 
 fun main() {
     val n = readln().toInt() // N
