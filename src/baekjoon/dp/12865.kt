@@ -18,7 +18,7 @@ fun main() {
             if (w[i] > j) {
                 dp[i][j] = dp[i - 1][j]
             } else {
-                dp[i][j] = maxOf(dp[i - 1][j], dp[i - 1][j - w[i]] + v[i])
+                dp[i][j] = maxOf(dp[i - 1][j], v[i] + dp[i - 1][j - w[i]])
             }
         }
     }
