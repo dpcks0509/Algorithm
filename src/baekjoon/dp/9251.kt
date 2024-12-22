@@ -8,7 +8,7 @@ fun main() {
 
     for (i in 1..first.length) {
         for (j in 1..second.length) {
-            if (first[i-1] == second[j-1]) {
+            if (first[i - 1] == second[j - 1]) {
                 dp[i][j] = dp[i - 1][j - 1] + 1
             } else {
                 dp[i][j] = maxOf(dp[i - 1][j], dp[i][j - 1])
