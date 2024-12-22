@@ -1,4 +1,4 @@
-package baekjoon.graph
+package baekjoon.tree
 
 fun main() {
     val n = readln().toInt()
