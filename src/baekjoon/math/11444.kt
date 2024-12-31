@@ -1,4 +1,4 @@
-package baekjoon
+package baekjoon.math
 
 fun main() {
     val br = System.`in`.bufferedReader()
