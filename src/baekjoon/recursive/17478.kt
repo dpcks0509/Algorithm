@@ -1,4 +1,4 @@
-package baekjoon
+package baekjoon.recursive
 
 fun main() {
     val br = System.`in`.bufferedReader()
@@ -6,10 +6,7 @@ fun main() {
     val n = br.readLine().toInt()
 
     fun recursive(depth: Int) {
-        var underLine = ""
-        repeat(depth) {
-            underLine += "____"
-        }
+        val underLine = "____".repeat(depth)
 
         if (depth == n) {
             println(underLine + "\"재귀함수가 뭔가요?\"")
